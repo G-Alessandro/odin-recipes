@@ -1,0 +1,18 @@
+body {
+    background-color: ;
+}
+h1,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    display: inline;
+}
+h3 {
+    background: linear-gradient( to left,
+    rgb(0, 147, 70) 33%,
+    rgb(241, 242, 241) 33%,
+    rgb(241, 242, 241) 66%,
+    rgb(206, 43, 55) 66%,
+    rgb(206, 43, 55) 100%);
+    display: inline;
+
+}
