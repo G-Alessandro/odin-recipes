@@ -1,18 +1,38 @@
+
 body {
-    background-color: ;
+    background-color: antiquewhite;
 }
-h1,h3 {
+.odintitle {
+    background-color: rgb(202, 140, 63);
+    color: white;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: orange;
+}
+h1,h3,.italy {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 221, 134);
     display: inline;
 }
-h3 {
-    background: linear-gradient( to left,
+
+.italy {
+    background: linear-gradient( to right,
     rgb(0, 147, 70) 33%,
     rgb(241, 242, 241) 33%,
     rgb(241, 242, 241) 66%,
     rgb(206, 43, 55) 66%,
     rgb(206, 43, 55) 100%);
     display: inline;
-
+}
+.italy.bressanini {
+    background: linear-gradient( to right,
+    rgb(0, 147, 70) 34%,
+    rgb(241, 242, 241) 34%,
+    rgb(241, 242, 241) 66%,
+    rgb(206, 43, 55) 66%,
+    rgb(206, 43, 55) 100%);
+}
+.ingredients,.directions,.info {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 221, 134);
+    display: inline;
 }
